@@ -6,11 +6,17 @@ def bluebg():
 def tealbg():
     text.config(bg="#008080",fg="#fff")
 def helv():
-    text.config(font=("Helvetica", 20))
+    text.config(font=("courier"))
 def arial():
-    text.config(font=("Arial", 20))
+    text.config(font=("Arial"))
 def monos():
-    text.config(font=("Monospace", 20))
+    text.config(font=("Monospace"))
+def small():
+    text.config(font=("",10))
+def big():
+    text.config(font=("",20))
+def bigger():
+    text.config(font=("",30))
 window = Tk()
 text = Label(window, height=5, fg="#333", text="Hello, this will change when you click.")
 text.grid(row=0,column=0)
@@ -26,4 +32,11 @@ btn21 = Button(window, height=2, width=10, text="Arial", command=arial)
 btn21.grid(row=2,column=1)
 btn31 = Button(window, height=2, width=10, text="Monospace", command=monos)
 btn31.grid(row=3,column=1)
+btn12 = Button(window, height=2, width=10, text="Small", command=small)
+btn12.grid(row=1,column=2)
+btn22 = Button(window, height=2, width=10, text="Big", command=big)
+btn22.grid(row=2,column=2)
+btn32 = Button(window, height=2, width=10, text="Bigger", command=bigger)
+btn32.grid(row=3,column=2)
+
 window.mainloop()
