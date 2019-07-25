@@ -1,3 +1,5 @@
 # pythonpublic
-Public python stuff
-> Looks like m###### Chang can't sell a m###### pen
+## Public python stuff
+> Implementing on iOS
+> python /Users/pujansharma/Desktop/pythonpublic/prog2.py
+
