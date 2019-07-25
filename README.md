@@ -1,5 +1,6 @@
 # pythonpublic
 ## Public python stuff
-> Implementing on iOS
+> Running code on iOS, open terminal and type
+```
 python /Users/pujansharma/Desktop/pythonpublic/prog2.py
-
+```
